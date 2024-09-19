@@ -4,7 +4,7 @@ $(function () {
 
 
     //=======MENU FIX======
-    if ($(window).scrollTop() > 1) {
+    if ($(window).scrollTop() > 140) {
         if ($('.wsus__main_menu').offset() != undefined) {
             $('.wsus__main_menu').addClass('menu_fix');
         }
@@ -15,7 +15,7 @@ $(function () {
     }
 
     $(window).scroll(function () {
-        if ($(this).scrollTop() > 1) {
+        if ($(this).scrollTop() > 140) {
 
             if ($('.wsus__main_menu').offset() != undefined) {
                 // check if menu_if class is already added
@@ -30,42 +30,6 @@ $(function () {
             }
         }
     });
-
-
-
-    //=======HEADER FIX======
-    if ($(window).scrollTop() > 1) {
-        if ($('.wsus__header_two').offset() != undefined) {
-            $('.wsus__header_two').addClass('menu_fix');
-        }
-    } else {
-        if ($('.wsus__header_two').offset() != undefined) {
-            $('.wsus__header_two').removeClass('menu_fix');
-        }
-    }
-
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 1) {
-
-            if ($('.wsus__header_two').offset() != undefined) {
-                // check if menu_if class is already added
-                if (!$('.wsus__header_two').hasClass("menu_fix")) {
-                    $('.wsus__header_two').addClass("menu_fix");
-                }
-            }
-        }
-        else {
-            if ($('.wsus__header_two').offset() != undefined) {
-                $('.wsus__header_two').removeClass("menu_fix");
-            }
-        }
-    });
-
-
-
-
-
-
 
 
     //=======SELECT JS======

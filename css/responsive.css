@@ -609,11 +609,11 @@
         HOME PAGE 1 START
     ===================================*/
 
-    .wsus__header {
-        z-index: 999;
+    .wsus__topbar {
+        display: none;
     }
 
-    .wsus__header_two {
+    .wsus__header {
         display: none;
     }
 
@@ -622,7 +622,7 @@
     }
 
     .wsus__banner {
-        margin-top: 150px;
+        margin-top: 70px;
     }
 
     .wsus__banner_area {
@@ -634,14 +634,18 @@
     }
 
     .wsus__banner_text h1 {
-        font-size: 36px;
-        line-height: 46px;
+        font-size: 46px;
+        line-height: 55px;
     }
 
     .wsus__banner_img {
         width: 242px;
         height: 445px;
         bottom: -30px;
+    }
+
+    .wsus__banner .wsus__category_menu_2 {
+        display: none;
     }
 
     .wsus__category_item {
@@ -787,7 +791,7 @@
     ===================================*/
 
     .wsus__banner_2 {
-        margin-top: 112px;
+        margin-top: 72px;
     }
 
     .wsus__banner_2_text h1 {
@@ -859,14 +863,8 @@
         border-bottom: 2px solid var(--colorWhite);
     }
 
-    .wsus__footer_2_newsletter form input {
-        padding: 12px 25px 12px 25px;
-    }
-
-    .wsus__footer_2_newsletter form button {
-        width: 100%;
-        position: initial;
-        margin-top: 10px;
+    .wsus__footer_2_newsletter {
+        margin-top: 44px;
     }
 
     /*===================================
@@ -879,7 +877,7 @@
     ===================================*/
 
     .wsus__banner_3 {
-        margin-top: 112px;
+        margin-top: 72px;
     }
 
     .wsus__banner_3_contant h1 {
@@ -948,7 +946,7 @@
     ===================================*/
 
     .wsus__banner_4 {
-        margin-top: 112px;
+        margin-top: 70px;
         padding: 110px 30px 80px 30px;
     }
 
@@ -1046,7 +1044,7 @@
     ===================================*/
 
     .wsus__breadcrumbs {
-        margin-top: 112px;
+        margin-top: 70px;
     }
 
     .wsus__breadcrumb_text h1 {
@@ -1161,11 +1159,11 @@
         HOME PAGE 1 START
     ===================================*/
 
-    .wsus__header {
-        z-index: 999;
+    .wsus__topbar {
+        display: none;
     }
 
-    .wsus__header_two {
+    .wsus__header {
         display: none;
     }
 
@@ -1174,15 +1172,10 @@
     }
 
     .wsus__banner {
-        margin-top: 150px;
+        margin-top: 70px;
     }
 
     .wsus__banner_area {
-        margin-top: 40px;
-    }
-
-    .wsus__banner_area {
-        margin-top: 40px;
         padding: 60px 60px 20px 60px;
     }
 
@@ -1192,6 +1185,10 @@
 
     .wsus__banner_img {
         margin-top: 60px;
+    }
+
+    .wsus__banner .wsus__category_menu_2 {
+        display: none;
     }
 
     .wsus__category_item {
@@ -1340,7 +1337,7 @@
     ===================================*/
 
     .wsus__banner_2 {
-        margin-top: 112px;
+        margin-top: 72px;
     }
 
     .wsus__banner_2_text h1 {
@@ -1413,8 +1410,8 @@
         border-bottom: 2px solid var(--colorWhite);
     }
 
-    .wsus__footer_2_newsletter {
-        margin-top: 60px;
+    .wsus__footer_2_address {
+        margin-bottom: 50px;
     }
 
     /*===================================
@@ -1427,7 +1424,7 @@
     ===================================*/
 
     .wsus__banner_3 {
-        margin-top: 112px;
+        margin-top: 72px;
     }
 
     .wsus__banner_3_contant h1 {
@@ -1498,7 +1495,7 @@
     ===================================*/
 
     .wsus__banner_4 {
-        margin-top: 112px;
+        margin-top: 70px;
         padding: 110px 36px 80px 36px;
     }
 
@@ -1592,7 +1589,7 @@
     ===================================*/
 
     .wsus__breadcrumbs {
-        margin-top: 112px;
+        margin-top: 70px;
     }
 
     .wsus__breadcrumb_text h1 {
@@ -1720,15 +1717,11 @@
         HOME PAGE 1 START
     ===================================*/
 
-    .wsus__header_right {
-        justify-content: center;
+    .wsus__topbar {
+        display: none;
     }
 
     .wsus__header {
-        z-index: 999;
-    }
-
-    .wsus__header_two {
         display: none;
     }
 
@@ -1737,12 +1730,11 @@
     }
 
     .wsus__banner {
-        margin-top: 144px;
+        margin-top: 70px;
     }
 
     .wsus__banner_area {
         padding: 40px 25px;
-        margin-top: 30px;
     }
 
     .wsus__banner_text h1 {
@@ -1757,6 +1749,10 @@
     .wsus__banner_img {
         bottom: -40px;
         margin: auto;
+    }
+
+    .wsus__banner .wsus__category_menu_2 {
+        display: none;
     }
 
     .wsus__section_heading h2,
@@ -1961,7 +1957,7 @@
     ===================================*/
 
     .wsus__banner_2 {
-        margin-top: 112px;
+        margin-top: 72px;
     }
 
     .wsus__banner_2_text h1 {
@@ -2090,7 +2086,7 @@
     ===================================*/
 
     .wsus__banner_3 {
-        margin-top: 112px;
+        margin-top: 72px;
     }
 
     .wsus__banner_3::after,
@@ -2196,13 +2192,12 @@
     ===================================*/
 
 
-
     /*===================================
         HOME PAGE 4 START
     ===================================*/
 
     .wsus__banner_4 {
-        margin-top: 112px;
+        margin-top: 70px;
         padding: 110px 30px 80px 30px;
     }
 
@@ -2315,7 +2310,7 @@
     ===================================*/
 
     .wsus__breadcrumbs {
-        margin-top: 112px;
+        margin-top: 70px;
     }
 
     .wsus__breadcrumb_text h1 {
@@ -2513,15 +2508,11 @@
         HOME PAGE 1 START
     ===================================*/
 
-    .wsus__header_right {
-        justify-content: center;
+    .wsus__topbar {
+        display: none;
     }
 
     .wsus__header {
-        z-index: 999;
-    }
-
-    .wsus__header_two {
         display: none;
     }
 
@@ -2530,12 +2521,11 @@
     }
 
     .wsus__banner {
-        margin-top: 135px;
+        padding-top: 100px;
     }
 
     .wsus__banner_area {
         padding: 40px 25px;
-        margin-top: 30px;
     }
 
     .wsus__banner_text h1 {
@@ -2557,6 +2547,10 @@
         right: -18px;
         width: 280px;
         height: 280px;
+    }
+
+    .wsus__banner .wsus__category_menu_2 {
+        display: none;
     }
 
     .wsus__section_heading h2,
@@ -2743,7 +2737,7 @@
     ===================================*/
 
     .wsus__banner_2 {
-        margin-top: 112px;
+        margin-top: 72px;
     }
 
     .wsus__banner_2_text h1 {
@@ -2905,7 +2899,7 @@
     ===================================*/
 
     .wsus__banner_3 {
-        margin-top: 112px;
+        margin-top: 72px;
     }
 
     .wsus__banner_3_contant h1 {
@@ -3021,7 +3015,7 @@
     ===================================*/
 
     .wsus__banner_4 {
-        margin-top: 112px;
+        margin-top: 70px;
         padding: 110px 12px 80px 12px;
     }
 
@@ -3243,7 +3237,7 @@
     ===================================*/
 
     .wsus__breadcrumbs {
-        margin-top: 112px;
+        margin-top: 70px;
     }
 
     .wsus__breadcrumb_text h1 {

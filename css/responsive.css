@@ -1,3 +1,40 @@
+@media (min-width: 1600px) and (max-width: 1800px) {
+
+    .wsus__product_area {
+        margin-left: 155px;
+    }
+
+    .wsus__product_item .text ul li:nth-child(2) a {
+        padding: 8px 20px 9px 20px;
+    }
+
+    .wsus__product .nextArrow,
+    .wsus__product .prevArrow {
+        right: 164px;
+    }
+
+    .wsus__product .prevArrow {
+        right: 215px !important;
+        left: auto;
+    }
+
+    .wsus__testimonial_area {
+        margin-left: 150px;
+    }
+
+    .wsus__testimonial .nextArrow,
+    .wsus__testimonial .prevArrow {
+        right: 165px;
+    }
+
+    .wsus__testimonial .prevArrow {
+        right: 215px !important;
+    }
+
+}
+
+
+
 @media (min-width: 1400px) and (max-width: 1600px) {
 
     /*===================================
@@ -1698,7 +1735,12 @@
     ======================================*/
 
     .wsus__login_img {
-        height: 820px;
+        display: none;
+    }
+
+    .wsus__login .back_home {
+        top: 28px;
+        right: 36px;
     }
 
     .wsus__login_right {
@@ -2488,7 +2530,12 @@
     ======================================*/
 
     .wsus__login_img {
-        height: 630px;
+        display: none;
+    }
+
+    .wsus__login .back_home {
+        top: 25px;
+        right: 30px;
     }
 
     .wsus__login_right {
@@ -3409,12 +3456,12 @@
     ======================================*/
 
     .wsus__login_img {
-        height: auto;
+        display: none;
     }
 
     .wsus__login .back_home {
-        top: 148px;
-        right: 180px;
+        top: 25px;
+        right: 15px;
     }
 
     .wsus__login_right {
